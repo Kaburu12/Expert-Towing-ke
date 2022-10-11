@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-# puts '🌱 Mike seeding data....'
+puts '🌱 Mike seeding data....'
 
-# user= User.create(username:"mike", password_digest:"kaburu")
+user= User.create(username:"mike", password_digest:"kaburu")
 
-# puts '....✅ Mike done seeding data'
+puts '....✅ Mike done seeding data'
