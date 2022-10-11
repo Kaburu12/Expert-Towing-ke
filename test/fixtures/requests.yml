@@ -4,8 +4,10 @@ one:
   vehicle: MyString
   location: MyString
   phone: MyString
+  user_id: 1
 
 two:
   vehicle: MyString
   location: MyString
   phone: MyString
+  user_id: 1

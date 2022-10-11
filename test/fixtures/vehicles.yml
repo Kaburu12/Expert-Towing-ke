@@ -3,11 +3,11 @@
 one:
   type: 
   image: MyString
-  price: 1
-  Damage_rate: MyString
+  price: MyString
+  damage_rate: MyString
 
 two:
   type: 
   image: MyString
-  price: 1
-  Damage_rate: MyString
+  price: MyString
+  damage_rate: MyString
