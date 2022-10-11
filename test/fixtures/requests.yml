@@ -2,10 +2,10 @@
 
 one:
   vehicle: MyString
-  place: MyString
+  location: MyString
   phone: MyString
 
 two:
   vehicle: MyString
-  place: MyString
+  location: MyString
   phone: MyString
