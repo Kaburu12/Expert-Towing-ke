@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
+import VehiclePage from "./VehiclePage";
+
 
 function Home({ user }) {
   if (user) {
-    return <h1>Welcome, {user.username}!</h1>;
+    return <div>
+       <h1>Welcome, {user.username}!</h1>
+       <VehiclePage/>
+       </div>
+    
+      
+     
   } else {
     return <div className="top-head">
       <div>
