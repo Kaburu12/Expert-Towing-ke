@@ -2,6 +2,7 @@ class VehiclesController < ApplicationController
 
     rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
 
+    #GET/vehicles/all
     def index
       vehicle = Vehicle.all
       render json: vehicle, status: :ok
@@ -25,11 +26,11 @@ class VehiclesController < ApplicationController
     private
 
     def find_vehicle
-        Vehicle.find_by(id: params[:id])
+        Vehicle.find(params[:id])
     end
 
     def vehicle_params
-        params.permit(:vehicle, :image,:phone,:price,:damage_rate)
+        params.permit(:category, :image,:phone,:price,:damage_rate)
     end
   
     def render_not_found_response

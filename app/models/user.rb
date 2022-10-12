@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+    # has_secure_password
+    validates :password,length:{minimum:8}
+
     has_many :requests 
-    has_many :vehicles, through: :requests
 end

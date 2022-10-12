@@ -1,6 +1,6 @@
 class Request < ApplicationRecord
-    validates :phone,length:{maximum:10}
+    validates :phone,length:{minimum:8}
+    validates :phone,length:{maximum:12}
 
     belongs_to :user
-    belongs_to :vehicle
 end

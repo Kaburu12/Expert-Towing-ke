@@ -1,36 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 body {
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  max-width: 900px;
+  margin: auto;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  max-width: 100%;
+  font-family: 'Nunito', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-header {
-  display: flex;
+nav {
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #ccc;
+  background-color: #1A9AF1;
+  
 }
 
-header a,
-header button {
-  font-size: 1rem;
-  display: inline-block;
-  background-color: #fff8e7;
-  border: 1px solid salmon;
-  margin: 1rem;
-  padding: 1rem;
+  nav ul {
+    display: flex;
+  list-style: none;
+  font-size: 16px;
+  margin-top: auto;
+  justify-content: center;
+
+  }
+
+  nav ul li{
+    margin-left: 5%;
+margin-right: 5%;
+margin-top: 20px;
+margin-bottom: 5px;
+  }
+  
+  
+  nav ul li a {
+  
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+  padding-bottom: 1.0 rem;
   text-decoration: none;
-  color: salmon;
+  }
+  
+  nav ul li a:hover {
+  color: #ffffff;
+  background-color: blue;
+  padding: 10px;
+   margin-left: 5px;
+   margin-left: 5px;
+  }
+
+  #nav-bar ul li button{
+    background-color: #F4B350;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #login-signup a{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+.header{
+  background-image: url(./images/header1.jpg);
+  background-size: cover;
+ background-position: center;
+ height: 80vh;
+ margin: 0; 
+ max-width: 100%;
+ padding-top: 20px;
+ padding-left: 250px;
+ padding-right: 250px;
+}
+
+.header h1{
+  color:blue;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 0px 30px 0px 30px;
+
+}
+
+.top-head div h3{
+  color:#ffffff;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.top-head button{
+  background-color: #1A9AF1;
+  color: #ffffff;
+  padding:15px;
+  border-style: none;
+  font-size:20px ;
+  margin-top: 20px;
+  margin-left: 165px;
   cursor: pointer;
+}
+
+.header h1 button{
+  color: white;
+  background-color: #1A9AF1;
+  margin-left:20px ;
+  padding-top: 15px;
+  padding-bottom:15px;
+  padding-left:20px;
+padding-right: 20px;
+border-style: none;
+font-size: 20px;
+cursor: pointer;
 }
 
 main {
@@ -39,12 +126,27 @@ main {
 
 form {
   background-color: #fff8e7;
-  border: 1px solid salmon;
+  border: 5px solid #1A9AF1;
   display: flex;
   flex-direction: column;
   width: 400px;
   margin: 0 auto;
   padding: 0 1rem 1rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+form button{
+  margin-top: 10px;
+  background-color: blue;
+  color: #ffffff;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form label{
+  font-weight: 600;
 }
 
 form input {
@@ -53,4 +155,64 @@ form input {
 
 form button[type="submit"] {
   width: 40%;
+}
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-top{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-style: outset;
+  width: fit-content;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:20px ;
+  text-align:center ;
+}
+
+.main-top h4{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-top h2{
+font-weight:bolder;
+}
+
+footer{
+  background-color:#F4B350 ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.signup-page{
+  background-image: url(./images/header4.jpg);
+  background-size: cover;
+ background-position: center;
+ height: 80vh;
+ margin: 0; 
+ max-width: 100%;
+ padding-top: 20px;
+ padding-left: 250px;
+ padding-right: 250px;
+}
+
+.login{
+  background-image: url(./images/header5.jpg);
+  background-size: cover;
+ background-position: center;
+ height: 80vh;
+ margin: 0; 
+ max-width: 100%;
+ padding-top: 20px;
+ padding-left: 250px;
+ padding-right: 250px;
 }
