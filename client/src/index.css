@@ -191,7 +191,7 @@ footer{
   padding-bottom: 20px;
   margin-top: 20px;
 }
-/* 
+
 .signup-page{
   background-image: url(./images/header4.jpg);
   background-size: cover;
@@ -204,7 +204,7 @@ footer{
  padding-right: 250px;
 }
 
-.login{
+/* .login{
   background-image: url(./images/header5.jpg);
   background-size: cover;
  background-position: center;
@@ -214,11 +214,11 @@ footer{
  padding-top: 20px;
  padding-left: 250px;
  padding-right: 250px;
-}
+} */
 
 .cards-container{
   display: flex;
-} */
+}
 
 .cards{
   display: flex;
