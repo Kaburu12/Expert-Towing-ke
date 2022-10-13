@@ -8,7 +8,7 @@ class RequestsController < ApplicationController
     end
     #GET/requests/id
     def show
-        request = Request.find( params[:id])
+        request = Request.find_by(id: params[:id])
         render json: request
     end
     #POST/requests
@@ -21,16 +21,17 @@ class RequestsController < ApplicationController
 
     #DELETE/requests/:id
     def destroy
-      request = Request.find(params[:id])
+      request = Request.find_by(id: params[:id])
       request.destroy
-      head:not_found
+      render json:{}, status: :not_found
+      #head:not_found 
     end
 
     private 
     
 
     def request_params
-        params.permit(:vehicle_type, :location,:phone,:user_id)
+        params.permit(:name, :location,:phone,:user_id)
     end
 
     def render_not_found_response

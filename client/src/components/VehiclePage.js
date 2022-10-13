@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import VehicleList from "./VehicleList";
 import Search from "./Search";
+import RequestPage from "./RequestPage";
+import RequestForm from "./RequestForm";
+// import {Link} from "react-router-dom";
 
 function VehiclePage() {
   const [vehicles, setVehicles] = useState([]);
+  const[requests,setRequests] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
@@ -14,7 +18,24 @@ function VehiclePage() {
       });
   }, []);
 
+  useEffect(() => {
+    fetch("/requests")
+      .then((r) => r.json())
+      .then((requestsArray) => {
+        setRequests(requestsArray);
+      });
+  }, []);
 
+
+  function handleAddRequest(newRequest) {
+    // const updatedRequestsArray = [...requests, newRequest];
+    setRequests( [...requests, newRequest]);
+  }
+
+  function handleDeleteRequest(id) {
+    const updatedRequestsArray = requests.filter((request)=>request.id !== id);
+    setRequests(updatedRequestsArray);
+  }
 
   function handleUpdateVehicle(updatedVehicle) {
     const updatedVehiclesArray = vehicles.map((vehicle) => {
@@ -29,11 +50,24 @@ function VehiclePage() {
 
   return (
     <main>
-      <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+       <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+     <RequestForm onAddRequest={handleAddRequest}/>
+     
+      <div className="vehicle-request">
       <VehicleList
         vehicles={displayedVehicles}
         onUpdateVehicle={handleUpdateVehicle}
       />
+      <RequestPage
+      requests={requests}
+      onAddRequest={handleAddRequest}
+      OnDeleteRequest={handleDeleteRequest}
+      />
+      </div>
+      <footer>
+        <h4>Contact : @infor.expert-towing.co.ke</h4>
+        <h3>Deisgn by Michael Kaburu</h3>
+      </footer>
     </main>
   );
 }

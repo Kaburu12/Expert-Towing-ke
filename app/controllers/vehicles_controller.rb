@@ -26,11 +26,11 @@ class VehiclesController < ApplicationController
     private
 
     def find_vehicle
-        Vehicle.find(params[:id])
+        Vehicle.find_by(id: params[:id])
     end
 
     def vehicle_params
-        params.permit(:category, :image,:phone,:price,:damage_rate)
+        params.permit(:name, :image,:phone,:price,:damage_rate, :is_in_display)
     end
   
     def render_not_found_response

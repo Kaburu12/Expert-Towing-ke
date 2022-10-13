@@ -2,7 +2,8 @@ import VehicleCard from "./VehicleCard";
 
 function VehicleList({ vehicles,onUpdateVehicle}) {
   return (
-    <ul className="cards">
+    <div className="cards-container">
+         <ul className="cards">
       {vehicles.map((vehicle) => {
         return (
           <VehicleCard
@@ -13,6 +14,8 @@ function VehicleList({ vehicles,onUpdateVehicle}) {
         );
       })}
     </ul>
+    </div>
+ 
   );
 }
 

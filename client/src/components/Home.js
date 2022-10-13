@@ -4,12 +4,10 @@ import VehiclePage from "./VehiclePage";
 
 function Home({ user }) {
   if (user) {
-    return <div>
-       <h1>Welcome, {user.username}!</h1>
+    return <div className="home">
+       <h1>Welcome, {user.username} ! <span>Your User_Code Is :</span> {user.id}</h1>
        <VehiclePage/>
        </div>
-    
-      
      
   } else {
     return <div className="top-head">
@@ -17,7 +15,7 @@ function Home({ user }) {
       <h3>--------------------      Car & Heavy Truck Towing, Roadside, Repair & Recovery      --------------------</h3>
       </div>
         <div className="header">
-      <h1>EXPERT-TOWING KE  <button type="click">Call Now</button>  <button type="click">Payment</button></h1>
+      <h1>EXPERT-TOWING KE  <button type="click">Call Now</button> <button type="click">Payment</button></h1>
          </div>
          <div className="main-section">
          <div className="main-top">
