@@ -261,7 +261,7 @@ footer{
   font-weight: 600;
 }
 
-/* .search-bar{
+.search-bar{
   border-style: double;
   border-style: outset;
   padding-top:20px;
@@ -281,7 +281,7 @@ footer{
 .search-container{
   margin-right:1150px ;
   margin-left: 20px;
-} */
+}
 
 /* .search-bar input[type="text"]{
   padding: 10px;
