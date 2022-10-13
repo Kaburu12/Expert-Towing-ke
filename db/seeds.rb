@@ -21,15 +21,8 @@ vehicle6 = Vehicle.create(name: "Van",image:"https://images.unsplash.com/photo-1
 vehicle7 = Vehicle.create(name: "Tractor",image:"https://images.unsplash.com/photo-1575236317427-1da36112fa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRyYWN0b3J8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",price:"80",damage_rate:"large",is_in_display: true)
 vehicle8 = Vehicle.create(name: "Tractor",image:"https://images.unsplash.com/photo-1580311890367-c1f180fe4fb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHJhY3RvcnN8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",price:"60",damage_rate:"small",is_in_display: true)
 vehicle9 = Vehicle.create(name: "Truck",image:"https://images.unsplash.com/photo-1605705658744-45f0fe8f9663?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRydWNrfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",price:"80",damage_rate:"large",is_in_display: true)
-vehicle10 =Vehicle.create(name: "Truck",image:"https://images.unsplash.com/photo-1602750766769-8db8d49cc369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dHJ1Y2t8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",price:"55",damage_rate:"small",is_in_display: true)
 
 #requests
 request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-request = Request.create(name:"car",location:"Thika Road",phone:"0796225100",user_id:user.id)
-# request=Request.create(vehicle_type:"car",location:"Thika Road",phone:"0796225100",user_id:1,vehicle_id:1)
 
 puts '....✅ Mike done seeding data'
