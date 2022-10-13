@@ -316,7 +316,7 @@ form button{
   flex-wrap: wrap;
 }
 
-/* .request-card{
+.request-card{
   margin: 5px;
   padding: 10px;
   border-style: double;
@@ -328,9 +328,9 @@ form button{
   font-size: 15px;
   color: #ffffff;
   background-color: #EC4067;
-} */
+}
 
-/* .requestheader-cont{
+.requestheader-cont{
   background: blue;
   text-align: center;
   margin-left: 400px;
@@ -343,4 +343,4 @@ form button{
   font-weight: 900;
   padding: 5px;
   color: #ffffff;
-} */
+}
