@@ -144,7 +144,7 @@ form button{
   padding-bottom: 10px;
 }
 
-/* form label{
+form label{
   font-weight: 600;
 }
 
@@ -160,7 +160,7 @@ form button[type="submit"] {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /* .main-top{
   display: flex;
