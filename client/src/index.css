@@ -283,7 +283,7 @@ footer{
   margin-left: 20px;
 }
 
-/* .search-bar input[type="text"]{
+.search-bar input[type="text"]{
   padding: 10px;
   border-radius: 8px;
   font-size: 16px;
@@ -297,8 +297,8 @@ footer{
 
 span{
   color:#EC4067
-} */
-/* 
+}
+
 form button{
   cursor:pointer
 }
@@ -314,7 +314,7 @@ form button{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-} */
+}
 
 /* .request-card{
   margin: 5px;
