@@ -77,7 +77,7 @@ margin-bottom: 5px;
  padding-right: 250px;
 }
 
-/* .header h1{
+.header h1{
   color:blue;
   font-size: 30px;
   text-align: center;
@@ -93,9 +93,9 @@ margin-bottom: 5px;
   background-color: #000000;
   padding: 10px;
   font-size: 30px;
-} */
+}
 
-/* .top-head button{
+.top-head button{
   background-color: #1A9AF1;
   color: #ffffff;
   padding:15px;
@@ -117,9 +117,9 @@ padding-right: 20px;
 border-style: none;
 font-size: 20px;
 cursor: pointer;
-} */
+}
 
-/* main {
+main {
   margin: 1rem;
 }
 
@@ -142,7 +142,7 @@ form button{
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-} */
+}
 
 /* form label{
   font-weight: 600;
