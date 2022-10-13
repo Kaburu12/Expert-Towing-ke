@@ -60,7 +60,7 @@ margin-bottom: 5px;
     cursor: pointer;
   }
 
-  /* #login-signup a{
+  #login-signup a{
     margin-left: 18px;
     margin-right: 18px;
   }
@@ -75,7 +75,7 @@ margin-bottom: 5px;
  padding-top: 20px;
  padding-left: 250px;
  padding-right: 250px;
-} */
+}
 
 /* .header h1{
   color:blue;
