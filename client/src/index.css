@@ -162,7 +162,7 @@ form button[type="submit"] {
   align-items: center;
 }
 
-/* .main-top{
+.main-top{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -190,7 +190,7 @@ footer{
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
-} */
+}
 /* 
 .signup-page{
   background-image: url(./images/header4.jpg);
