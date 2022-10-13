@@ -1,5 +1,5 @@
 # Expert-Towing-Ke
-
+Expert Towing Ke - This is a motor vehicle platform that provides services in towing vehicles in case there's a break down e.g an accident or a mechanical damage. Through the site ,an owner of the vehicle can request for the towing services from the site where an available engineer will come tow the vehicle or if it's a small issue it's fixed right a way. 
 
 ## Description
 The app uses CSS ,JAVA SCRIPT,REACT.JS language for front-end and Ruby on Rails for back-end to program it .Expert-Towing Ke app has the following user interactivity :
