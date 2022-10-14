@@ -250,6 +250,7 @@ footer{
 #request-form{
   padding-top: 20px;
   padding-bottom: 10px;
+  margin-right: 50px;
 }
 
 #request-form input{
@@ -270,6 +271,8 @@ footer{
   background-color: #F4B350;
   margin-top: 10px;
   border-radius: 20px 0px 20px 0px;
+  padding-right: 20px;
+  margin-right: 450px;
 }
 
 .search-bar label{
@@ -279,8 +282,9 @@ footer{
 }
 
 .search-container{
-  margin-right:1150px ;
+  margin-right:100px ;
   margin-left: 20px;
+  
 }
 
 .search-bar input[type="text"]{
@@ -292,7 +296,7 @@ footer{
 }
 
 .request-form h2{
-  margin-left: 755px;
+  margin-left: 75px;
 }
 
 span{
@@ -343,4 +347,13 @@ form button{
   font-weight: 900;
   padding: 5px;
   color: #ffffff;
+}
+
+.icons{
+  font-size: 30px;
+}
+
+.search-requestform{
+  display: flex;
+ 
 }

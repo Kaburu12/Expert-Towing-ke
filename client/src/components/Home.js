@@ -31,6 +31,8 @@ function Home({ user }) {
          <Link to="/signup"> <button type="click">Request a service</button></Link>
        <footer>
         <p>Designed by : Michael Kaburu</p>
+        <h3>Contact Us : <span id="icons"> 📞</span> 0796225100</h3>
+        <h3>Email : <span id="icons">📧</span> @infor.expert-towing.co.ke</h3>
        </footer>
     </div>
   }

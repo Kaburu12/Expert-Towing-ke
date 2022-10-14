@@ -49,10 +49,11 @@ function VehiclePage() {
   });
 
   return (
-    <main>
-       <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-     <RequestForm onAddRequest={handleAddRequest}/>
-     
+    <main> 
+      <div className="search-requestform">
+      <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+      <RequestForm onAddRequest={handleAddRequest}/>
+      </div>
       <div className="vehicle-request">
       <VehicleList
         vehicles={displayedVehicles}
