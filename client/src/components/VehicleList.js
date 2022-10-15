@@ -2,7 +2,10 @@ import VehicleCard from "./VehicleCard";
 
 function VehicleList({ vehicles,onUpdateVehicle}) {
   return (
-    <div className="cards-container">
+    <div id="vehicle-list">
+       <h2>Different Vehicle Categories Listed With Towing Price Charges 
+        According To Damage Rate <span id="veh-list">( Cars, SUVs, Trucks,Tractors & Buses)</span> </h2>
+      <div className="cards-container">
          <ul className="cards">
       {vehicles.map((vehicle) => {
         return (
@@ -15,6 +18,8 @@ function VehicleList({ vehicles,onUpdateVehicle}) {
       })}
     </ul>
     </div>
+    </div>
+    
  
   );
 }

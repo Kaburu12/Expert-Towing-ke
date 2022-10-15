@@ -78,7 +78,7 @@ margin-bottom: 5px;
 }
 
 .header h1{
-  color:blue;
+  color:#EC4067;
   font-size: 30px;
   text-align: center;
   padding-top: 30px;
@@ -356,4 +356,30 @@ form button{
 .search-requestform{
   display: flex;
  
+}
+
+#vehicle-list h2{
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+margin-top: 30px;
+background-color: #1A9AF1;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #ffffff;
+}
+
+#veh-list{
+  color: #000000;
+}
+
+#profile{
+  font-size: 30px;
+  background-color: #fff4e9;
+  padding: 10px;
+  border-radius: 70%;
+}
+
+button img{
+  width:30px ;
 }

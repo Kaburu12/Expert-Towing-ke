@@ -66,7 +66,8 @@ function VehiclePage() {
       />
       </div>
       <footer>
-        <h4>Contact : @infor.expert-towing.co.ke</h4>
+        <h4>Contact Us : <span id="icons"> 📞</span> 0796225100</h4>
+        <h4>Email : <span id="icons">📧</span> @infor.expert-towing.co.ke</h4>
         <h3>Deisgn by Michael Kaburu</h3>
       </footer>
     </main>

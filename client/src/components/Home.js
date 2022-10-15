@@ -3,9 +3,15 @@ import VehiclePage from "./VehiclePage";
 
 
 function Home({ user }) {
+  //call popup
+  function handlePopUp() {
+    return alert("Reach Us Through : 0796221000");
+  }
+
+
   if (user) {
     return <div className="home">
-       <h1>Welcome, {user.username} ! <span>Your User_Code Is :</span> {user.id}</h1>
+       <h1 id="greeting"> <span id="profile">👤</span>  Hello, {user.username} ! <span>Your User_Code Is :</span> {user.id}</h1>
        <VehiclePage/>
        </div>
      
@@ -15,7 +21,9 @@ function Home({ user }) {
       <h3>--------------------      Car & Heavy Truck Towing, Roadside, Repair & Recovery      --------------------</h3>
       </div>
         <div className="header">
-      <h1>EXPERT-TOWING KE  <button type="click">Call Now</button> <button type="click">Payment</button></h1>
+      <h1>EXPERT-TOWING KE  <button onClick={handlePopUp} type="click">Call Now</button> 
+      <button type="click">Payment <img id="mpesa-image-" src="https://upload.wikimedia.org/wikipedia/commons/0/03/M-pesa-logo.png" alt="mpesa-img"/>
+       </button></h1>
          </div>
          <div className="main-section">
          <div className="main-top">
